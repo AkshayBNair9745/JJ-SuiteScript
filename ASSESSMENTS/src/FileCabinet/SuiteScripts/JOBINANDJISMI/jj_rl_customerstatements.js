@@ -1,6 +1,7 @@
 /**
  * @NApiVersion 2.1
  * @NScriptType Restlet
+ *this is to When performing the API request from a third-party application, the Restlet code needs to fetch the request body first, then check for duplicate folder names. If the folder name already exists, return a response stating that the folder name already exists.
  */
 define(['N/record','N/search','N/file','N/email'],
     /**
