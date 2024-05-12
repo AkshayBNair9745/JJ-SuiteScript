@@ -1,6 +1,7 @@
 /**
  * @NApiVersion 2.1
  * @NScriptType Suitelet
+ *Create a Suitelet page titled "Bitcoin Price List" with the following features:
  */
 define(['N/http', 'N/https', 'N/record', 'N/ui/serverWidget'],
     /**
